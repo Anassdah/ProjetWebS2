@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Css/style.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="sidebar">
+    <div class="logo_content">
+      <div class="logo">
+        <i class='bx bx-brain'></i>
+        <div class="logo_name">Quiz</div>
+      </div>
+      <i class='bx bx-menu' id="btn" ></i>
+    </div>
+    <ul class="nav_list">
+      <li>
+          <i class='bx bx-search' ></i>
+          <input type="text" placeholder="Search...">
+        <span class="tooltip">Search</span>
+      </li>
+      <li>
+        <a href="topics.html">
+            <i class='bx bx-globe-alt'></i>
+          <span class="links_name" href='topics.html'>Topics</span>
+        </a>
+        <span class="tooltip">Topics</span>
+      </li>
+      <li>
+        <a href="#">
+            <i class='bx bxs-joystick'></i>
+          <span class="links_name">Invite your friends</span>
+        </a>
+        <span class="tooltip">Invite your friends</span>
+      </li>
+      <li>
+        <a href="#">
+            <i class='bx bxl-facebook-square'></i>
+          <span class="links_name">Facebook</span>
+        </a>
+        <span class="tooltip">Facebook</span>
+      </li>
+      <li>
+        <a href="#">
+            <i class='bx bxl-instagram'></i>
+          <span class="links_name">Instagram</span>
+        </a>
+        <span class="tooltip">Instagram</span>
+      </li>
+      <li>
+        <a href="#">
+            <i class='bx bxl-twitter' ></i>
+          <span class="links_name">Twitter</span>
+        </a>
+        <span class="tooltip">Twitter</span>
+      </li>
+      <li>
+        <a href="#">
+            <i class='bx bxl-linkedin-square'></i>
+          <span class="links_name">LinkedIn</span>
+        </a>
+        <span class="tooltip">LinkedIn</span>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cog' ></i>
+          <span class="links_name">Setting</span>
+        </a>
+        <span class="tooltip">Setting</span>
+      </li>
+    </ul>
+  </div>
+  <div class="home_content">
+    <div class="text">Quiz</div>
+  </div>
+
+  <script>
+   let btn = document.querySelector("#btn");
+   let sidebar = document.querySelector(".sidebar");
+   let searchBtn = document.querySelector(".bx-search");
+
+   btn.onclick = function() {
+     sidebar.classList.toggle("active");
+     if(btn.classList.contains("bx-menu")){
+       btn.classList.replace("bx-menu" , "bx-menu-alt-right");
+     }else{
+       btn.classList.replace("bx-menu-alt-right", "bx-menu");
+     }
+   }
+   searchBtn.onclick = function() {
+     sidebar.classList.toggle("active");
+   }
+  </script>
+
+</body>
+</html>
