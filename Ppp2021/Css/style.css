@@ -201,7 +201,7 @@ body{/*this i s a comment*/
   display: flex;
   align-content: center;
   background-repeat: no-repeat;
-  animation: slider 15s infinite ease 4s;
+  animation: slider 15s infinite ease 1s;
 }
 #showcase h1{
   content: "Astronomy";
