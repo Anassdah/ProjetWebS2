@@ -191,5 +191,39 @@ body{/*this i s a comment*/
   width: calc(100% - 240px);
   left: 240px;
 }
+#showcase{
 
+  background-image: url(../images/astronomy.png);
+  background-position-x: center;
+  background-position-y:  -50px;
+
+  min-height: 500px;
+  display: flex;
+  align-content: center;
+  background-repeat: no-repeat;
+  animation: slider 15s infinite ease 4s;
+}
+#showcase h1{
+  content: "Astronomy";
+  font-size: 40px;
+  text-align: center;
+  font-family: cursive;
+  color:blanchedalmond;
+
+}
+@keyframes slider {
+
+  16%{background-image: url(../images/technology.png);}
+  32%{background-image: url(../images/geography.png);}
+  48%{background-image: url(../images/history.png);}
+  64%{background-image: url(../images/entretainment.png);}
+  80%{background-image: url(../images/morocco.png);}
+
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow:hidden;
+}
 
