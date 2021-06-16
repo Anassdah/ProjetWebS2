@@ -6,6 +6,10 @@
     <!-- Boxicons CDN Link -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <style>
+      .clear{clear: both;}
+      
+      </style>
    </head>
 <body>
       <!-- this is the sidebar-->
@@ -13,7 +17,7 @@
     <div class="logo_content">
       <div class="logo">
         <i class='bx bx-brain'></i>
-        <div class="logo_name">Quiz</div>
+        <div class="logo_name"> Quiz </div>
       </div>
       <i class='bx bx-menu' id="btn" ></i>
     </div>
@@ -22,6 +26,13 @@
           <i class='bx bx-search' ></i>
           <input type="text" placeholder="Search...">
         <span class="tooltip">Search</span>
+      </li>
+      <li>
+        <a href="index.html">
+          <i class='bx bxs-home'></i>
+          <span class="links_name" href='index.html'>Home</span>
+        </a>
+        <span class="tooltip">Home</span>
       </li>
       <li>
         <a href="topics.html">
@@ -73,7 +84,7 @@
         <span class="tooltip">Setting</span>
       </li>
       <li>
-        <a href="#">
+        <a href="contact.html">
           <i class='bx bxs-contact'></i>
           <span class="links_name">Contact</span>
         </a>
@@ -82,16 +93,43 @@
     </ul>
   </div>
   <div class="home_content">
-    <div class="text">Welcome to Quiz, where you learn and have fun!</div>
+     <div class="text">Welcome to Quiz, where you learn and have fun!</div>
           <!-- this is the image slider -->
-    <section id="showcase">
-      <div class="container">       
+     <section id="showcase">
+         <div class="container">       
             <h1></h1>
+          </div>
+      </section>
+     <div class="container">
+         <section id="main">
+           <div class="container">
+             <h1>Presentation</h1>
+             <p>Welcome to  Quiz, where you get to test your knowledge in our 6 main categories. Explore space in Astronomy, discover unkown locations in Geography, travel to the past in History, become a geek in Tehcnology, test your pop culture in Entretainment and learn about Morocco. Questions are update daily so that you'll always learn and have fun!</p>
+             <h1>Instructions</h1>
+             <p>Choose a category in which to play the Trivia Quiz from Astronomy, Geography, History, Entertainment, and Morocco with new categories coming soon.
+              Answer 10 multiple-choice quiz questions as quickly and as accurately as possible in each themed game. Your score and daily rank will be displayed on completion of the game.
+             </p>
+           </div>
+         </section>
+        <aside id="sidetext">
+          <div class="container">
+           <div class="block">
+             <h1>Announcements</h1>
+             <p>You'll find here all the news, announcements and latest updates !</p>
+             <h4>Coming soon</h4>
+             <ul>
+                <li>Science and sport categories</li>
+                <li>Play against users feature</li>
+                <li>New question format</li>
+                <li>Daily trivia</li>
 
+              </ul>
+           </div>
+         </div>
+        </aside>
       </div>
-  </section>
-  <div class="container">
-  </div>
+     </div>
+
 
   <script>
    let btn = document.querySelector("#btn");

@@ -173,6 +173,7 @@ body{/*this i s a comment*/
   background: #E4E9F7;
   box-shadow:  0 5px 10px rgba(0,0,0,0.2px);
   transition: all 0.5s ease;
+  overflow-y: scroll;
 }
 .sidebar.active ~ .home_content{
   z-index: 100;
@@ -278,9 +279,9 @@ background: cadetblue;
 
   background-image: url(../images/astronomy.png);
   background-position-x: center;
-  background-position-y:  -50px;
+  background-position-y:  -100px;
 
-  min-height: 500px;
+  min-height: 400px;
   display: flex;
   align-content: center;
   background-repeat: no-repeat;
@@ -305,9 +306,55 @@ background: cadetblue;
 }
 
 .container{
-  width: 80%;
+  width: 90%;
   margin: auto;
   overflow:hidden;
+  text-align: justify;
+}
+#main h1{
+  font-size: 30px;
+  font-family: cursive;
+  color: rgb(10, 2, 41);
+}
+#main{
+  float: left;
+  width: 67%;
+  margin-top: 60px;
+}
+#sidetext{
+  float: right;
+  width: 33%;
+  margin-top: 60px;
+}
+#sidetext h1{
+  text-align: center;
+  font-family: cursive;
+  color: rgb(10, 2, 41);
+  padding: 5px;
+
+}
+#sidetext li{
+  padding: 5px;
+  list-style-type: disc;
+  list-style-position: inside;
+}
+#sidetext p{
+  padding: 5px;
+}
+.block{
+  
+  width: auto;
+  margin: 10px;
+  box-sizing: border-box;
+  padding: 10px;
+  border: solid rgb(8, 1, 24);
+  border-width: thin;
+  min-height: 250px;
+  min-width:100px;
+  text-align: justify;
+  border-radius: 4px;
+  box-sizing: border-box;
+
 }
 @media screen and (max-width: 950px) {
   .contact-section{
