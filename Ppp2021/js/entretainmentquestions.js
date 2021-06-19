@@ -68,7 +68,7 @@ let questions = [
   },
   {
     numb: 7,
-    question: "How many oscars did Lord of the rings trilogy win?",
+    question: "How many oscars did Lord of the rings Return of the king (3rd movie) win?",
     answer: "11",
     options: [
       "5",
