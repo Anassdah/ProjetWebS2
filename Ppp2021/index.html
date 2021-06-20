@@ -6,6 +6,17 @@
     <!-- Boxicons CDN Link -->
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <style>
+       .mainfooter{
+        text-align: center;
+        font-size: 20px;
+        overflow: hidden;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 15px;
+        padding: auto;
+        }
+     </style>
    </head>
 <body>
       <!-- this is the sidebar-->
@@ -125,26 +136,14 @@
         </aside>
       </div>
       <div style="margin-bottom: 100px;"></div>
+      <footer class="mainfooter">
+        <p style="font-family: cursive;">Copyright &copy;2021 Quiz</p>
+
+    </footer>
      </div>
 
 
-  <script>
-   let btn = document.querySelector("#btn");
-   let sidebar = document.querySelector(".sidebar");
-   let searchBtn = document.querySelector(".bx-search");
-
-   btn.onclick = function() {
-     sidebar.classList.toggle("active");
-     if(btn.classList.contains("bx-menu")){
-       btn.classList.replace("bx-menu" , "bx-menu-alt-right");
-     }else{
-       btn.classList.replace("bx-menu-alt-right", "bx-menu");
-     }
-   }
-   searchBtn.onclick = function() {
-     sidebar.classList.toggle("active");
-   }
-  </script>
+  <script src="js/menu.js">  </script>
 
 </body>
 </html>
