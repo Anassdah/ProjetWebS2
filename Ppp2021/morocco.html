@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Css/style.css">
+    <!-- Boxicons CDN Link -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="Css/quizstyle.css">
+    <!-- FontAweome CDN Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+      <!-- this is the sidebar-->
+    <div class="sidebar">
+        <div class="logo_content">
+        <div class="logo">
+            <i class='bx bx-brain'></i>
+            <div class="logo_name"> Quiz </div>
+        </div>
+        <i class='bx bx-menu' id="btn" ></i>
+        </div>
+        <ul class="nav_list">
+        <li>
+            <i class='bx bx-search' ></i>
+            <input type="text" placeholder="Search...">
+            <span class="tooltip">Search</span>
+        </li>
+        <li>
+            <a href="index.html">
+            <i class='bx bxs-home'></i>
+            <span class="links_name" href='index.html'>Home</span>
+            </a>
+            <span class="tooltip">Home</span>
+        </li>
+        <li>
+            <a href="topics.html">
+                <i class='bx bx-globe-alt'></i>
+            <span class="links_name" href='topics.html'>Topics</span>
+            </a>
+            <span class="tooltip">Topics</span>
+        </li>
+        <li>
+            <a href="#">
+                <i class='bx bxs-joystick'></i>
+            <span class="links_name">Invite your friends</span>
+            </a>
+            <span class="tooltip">Invite your friends</span>
+        </li>
+        <li>
+            <a href="#">
+                <i class='bx bxl-facebook-square'></i>
+            <span class="links_name">Facebook</span>
+            </a>
+            <span class="tooltip">Facebook</span>
+        </li>
+        <li>
+            <a href="#">
+                <i class='bx bxl-instagram'></i>
+            <span class="links_name">Instagram</span>
+            </a>
+            <span class="tooltip">Instagram</span>
+        </li>
+        <li>
+            <a href="#">
+                <i class='bx bxl-twitter' ></i>
+            <span class="links_name">Twitter</span>
+            </a>
+            <span class="tooltip">Twitter</span>
+        </li>
+        <li>
+            <a href="#">
+                <i class='bx bxl-linkedin-square'></i>
+            <span class="links_name">LinkedIn</span>
+            </a>
+            <span class="tooltip">LinkedIn</span>
+        </li>
+        <li>
+            <a href="#">
+            <i class='bx bx-cog' ></i>
+            <span class="links_name">Setting</span>
+            </a>
+            <span class="tooltip">Setting</span>
+        </li>
+        <li>
+            <a href="contact.html">
+            <i class='bx bxs-contact'></i>
+            <span class="links_name">Contact</span>
+            </a>
+            <span class="tooltip">Contact</span>
+        </li>
+        </ul>
+     </div>
+ <div class="home_content">
+      <!-- start Quiz button -->
+    <div class="start_btn"><button>Start Quiz</button></div>
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title"><span>Some Rules of this Quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. You will have only <span>15 seconds</span> per each question.</div>
+            <div class="info">2. Once you select your answer, it can't be undone.</div>
+            <div class="info">3. You can't select any option once time goes off.</div>
+            <div class="info">4. You can't exit from the Quiz while you're playing.</div>
+            <div class="info">5. You'll get points on the basis of your correct answers.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Morocco Quiz </div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!--  question from JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- options from JavaScript -->
+            </div>
+        </section>
+        <!-- footer of Quiz Box -->
+        <footer>
+            <div class="total_que">
+                <!--  Question Count Number from JavaScript -->
+            </div>
+            <button class="next_btn">Next</button>
+        </footer>
+    </div>
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+            <!-- Here I've inserted Score Result from JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
+    <script src="js/moroccoquestions.js"></script>
+    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+    <script src="js/script.js"></script>
+
+ </div>
+ <script src="js/menu.js"></script>
+ 
+ </body>
+ </html>
