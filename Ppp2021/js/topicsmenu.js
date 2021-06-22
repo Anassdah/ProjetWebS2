@@ -25,5 +25,5 @@ entretainment.onclick = ()=>{
     location.href="entretainment.html" //goes to question
 }
 maroc.onclick = ()=>{
-    location.href="maroc.html" //goes to question
+    location.href="morocco.html" //goes to question
 }
