@@ -13,11 +13,11 @@ let questions = [
     {
     numb: 2,
     question: "What is the most populated city in Africa?",
-    answer: "Lagos",
+    answer: "Kinshasa",
     options: [
       "Lagos",
       "Cairo",
-      "Casablanca",
+      "Kinshasa",
       "Johannesburg"
     ]
   },

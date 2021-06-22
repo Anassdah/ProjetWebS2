@@ -101,13 +101,13 @@ let questions = [
             },
             {
                 numb:10 ,
-                  question: "Which one of these was not implicated in the assassination of Julius Caesar?",
-                  answer: "Nero",
+                  question: "In 44 B.C.E.,how many time Julius Caesar was stabbed in his assassination? ",
+                  answer: "23",
                   options: [
-                    "Nero",
-                    "Cassius",
-                    "Marc Antony",
-                    "Brutus"
+                    "2",
+                    "11",
+                    "23",
+                    "31"
                   ]
                 },
                 
