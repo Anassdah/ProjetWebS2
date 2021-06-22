@@ -13,7 +13,7 @@ let questions = [
       {
         numb:2,
         question: " Which territory under Morocco is disputed?",
-        answer: " Western Sahara",
+        answer: "Western Sahara",
         options: [
           "Abkhazia",
           "Somaliland",
