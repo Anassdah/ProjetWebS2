@@ -19,7 +19,7 @@ history.onclick = ()=>{
     location.href="history.html" //goes to question
 }
 technology.onclick = ()=>{
-    location.href="technologyy.html" //goes to question
+    location.href="technology.html" //goes to question
 }
 entretainment.onclick = ()=>{
     location.href="entretainment.html" //goes to question
